@@ -1,14 +1,14 @@
 # ChainDrug_BlockChain_Implementation
 This is a block chain application which can be used to curb drug trafficking
 
-Team Members:\
->	Parameswar K\
->	Bhanu Vikas Yaganti\
->	Sai Surya U\
->	Pavan Ganesh V\
->	Aman Mohammad
+**Team Members**:
+>>	Parameswar K\
+>>	Bhanu Vikas Yaganti\
+>>	Sai Surya U\
+>>	Pavan Ganesh V\
+>>	Aman Mohammad
 
-Project Description:\
+**Project Description**:\
 	A conceptual blockchain track drug sales.\
 	The idea is to have a way to ensure that at every trasaction is tracked and accounted.
 
@@ -16,10 +16,10 @@ Project Description:\
 
 1. Run this ChainDrug.py with 4 nodes by doing the following commands:\
 	
-	python3 ChainDrug.py -p 5000\
-	python3 ChainDrug.py -p 5001\
-	python3 ChainDrug.py -p 5002\
-	python3 ChainDrug.py -p 5003
+>	python3 ChainDrug.py -p 5000\
+>	python3 ChainDrug.py -p 5001\
+>	python3 ChainDrug.py -p 5002\
+>	python3 ChainDrug.py -p 5003
 
 
 2. Create a transaction at a particular client by sending a post request to the following URL
@@ -28,11 +28,11 @@ Project Description:\
 
 	by passing the following data\
 	{
-	+	"owner" : 5001,\
-	+	"receiver" : 5002,\
-	+	"amount" : 400,\
-	+	"drug_id" : 52856,\
-	+	"x" : 25\
+	+	"owner" : 5001,
+	+	"receiver" : 5002,
+	+	"amount" : 400,
+	+	"drug_id" : 52856,
+	+	"x" : 25
 	}
 
 
