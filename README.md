@@ -14,7 +14,7 @@ This is a block chain application which can be used to curb drug trafficking
 
 
 
-1. Run this ChainDrug.py with 4 nodes by doing the following commands:\
+1. Run this ChainDrug.py with 4 nodes by doing the following commands:
 	
 >>	python3 ChainDrug.py -p 5000\
 >>	python3 ChainDrug.py -p 5001\
@@ -26,13 +26,13 @@ This is a block chain application which can be used to curb drug trafficking
 	
 >>	http://localhost:5000/transactions/new
 
-	by passing the following data\
+	by passing the following data
 	{
-	+	"owner" : 5001,
-	+	"receiver" : 5002,
-	+	"amount" : 400,
-	+	"drug_id" : 52856,
-	+	"x" : 25\
+		"owner" : 5001,
+		"receiver" : 5002,
+		"amount" : 400,
+		"drug_id" : 52856,
+		"x" : 25
 	}
 
 
