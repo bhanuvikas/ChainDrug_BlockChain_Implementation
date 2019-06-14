@@ -9,7 +9,6 @@ This is a block chain application which can be used to curb drug trafficking
 >	Aman Mohammad
 
 **Project Description**:
-
 	A conceptual blockchain track drug sales.\
 	The idea is to have a way to ensure that at every trasaction is tracked and accounted.
 
@@ -25,7 +24,7 @@ This is a block chain application which can be used to curb drug trafficking
 
 2. Create a transaction at a particular client by sending a post request to the following URL
 	
-	http://localhost:5000/transactions/new
+>>	http://localhost:5000/transactions/new
 
 	by passing the following data\
 	{
